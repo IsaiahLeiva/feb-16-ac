@@ -14,8 +14,10 @@ export class HousesController {
     }
 
     viewHouses() {
+        console.log('viewing houses');
         _draw()
-        document.getElementById('modal-body-slot').innerHTML = getHouseForm()
+        //FIX ME: Need to write getHouseform in components folder
+        // document.getElementById('modal-body-slot').innerHTML = getHousesForm()
     }
 
     createHouse(event) {
