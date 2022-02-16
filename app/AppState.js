@@ -22,7 +22,7 @@ class AppState extends EventEmitter {
   ]
 
   houses = [
-    new House('4-bedroom', 739000, 'Large 4 bedroom 3 bath', 'https://photos.zillowstatic.com/fp/655d1e330935bb78a085aac56beb1dcc-uncropped_scaled_within_1536_1152.webp')
+    new House('4', 739000, 'Large 4 bedroom 3 bath', 'https://photos.zillowstatic.com/fp/655d1e330935bb78a085aac56beb1dcc-uncropped_scaled_within_1536_1152.webp')
   ]
 
   jobs = [
