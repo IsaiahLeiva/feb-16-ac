@@ -1,7 +1,5 @@
 import { ProxyState } from "../AppState.js"
 
-
-
 function _draw() {
     let template = ''
     ProxyState.houses.forEach(h => template += h.template)
@@ -16,7 +14,7 @@ export class HousesController {
     viewHouses() {
         console.log('viewing houses');
         _draw()
-        //FIX ME: Need to write getHouseform in components folder
+        //FIXME: Need to write getHouseform in components folder
         // document.getElementById('modal-body-slot').innerHTML = getHousesForm()
     }
 
